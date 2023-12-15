@@ -16,10 +16,10 @@ rm nsdomain
 #input nameserver manual to cloudflare
 clear
 echo "----------------------------------------";
-echo "---------=[ SLOW DNS khaiVPN ]=---------";
-echo "--------=[ SLOWDNS NameServer ]=--------";
-echo "----------------------------------------";
-read -rp "Masukkan Nameserver: " -e sub
+echo "-=[ ▂▃▅▇█▓▒░ khaiVPN ░▒▓█▇▅▃▂ ]=-";
+echo "-------=[ 𝕊𝕃𝕆𝕎𝔻ℕ𝕊 ℕ𝕒𝕞𝕖𝕊𝕖𝕣𝕧𝕖𝕣 ]=-----";
+echo "---------------------------------------";
+read -rp "𝕄𝕒𝕤𝕦𝕜𝕜𝕒𝕟 ℕ𝕒𝕞𝕖𝕤𝕖𝕣𝕧𝕖𝕣: " -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
