@@ -17,7 +17,7 @@ rm nsdomain
 clear
 echo "---=[ ▂▃▅▇█▓▒░ khaiVPN ░▒▓█▇▅▃▂ ]=---";
 echo "------=[ 𝕊𝕃𝕆𝕎𝔻ℕ𝕊 ℕ𝕒𝕞𝕖𝕊𝕖𝕣𝕧𝕖𝕣 ]=-------";
-read -rp "𝕄𝕒𝕤𝕦𝕜𝕜𝕒𝕟 ℕ𝕒𝕞𝕖𝕤𝕖𝕣𝕧𝕖𝕣 : " -e sub
+read -rp "Masukkan Nameserver>>: " -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
